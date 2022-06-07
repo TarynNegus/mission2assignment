@@ -1,9 +1,5 @@
-
-if (document.readyState == "loading") {
-  document.addEventListener("DOMContentLoaded", ready);
-} else {
-  ready();
-}
+const About = document.getElementById("About");
+About.innerText = "";
 
 function ready() {
   var removeCartItemButtons = document.getElementsByClassName("btn-danger");
